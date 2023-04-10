@@ -63,7 +63,13 @@
 		"target": ["desktop", "start-menu"]
 	},
 	"appAssets": [
-		
+		{
+			"alias": "winform-interop-example",
+			"version": "3.0.1",
+			"src": "/common/assets/native-interop-example.zip",
+			"target": "OpenFin.Interop.Win.Sample.exe",
+			"forceDownload": false
+		}
 	],
 	"supportInformation": {
 		"company": "OpenFin",
@@ -978,4 +984,3 @@
 		}
 	}
 }
-
